@@ -48,54 +48,25 @@ Color-Coded Performance Legend:
 
 🟥 <80% (Underperforming)
 
-This enables quick identification of underperforming stores such as “Ben Nghe - HUE” (68% TGT).
-
 3. Regional Revenue Contribution
-Stacked bar chart showing revenue by region and by store type (e.g., Flagship, Café, Station).
-
-South region is leading with highest revenue contribution.
+Stacked bar chart showing revenue by region and by store type (e.g., Flagship, Café, Station)
 
 4. Store Quadrant Map (Positioning Matrix)
 X-Axis: Average Transaction Value
 
 Y-Axis: Total Transactions (MTD)
 
-Stores plotted to identify:
-
-High value, high transaction stores (e.g., The Nhon – HN, Calmette – HCM)
-
-Low value, low transaction stores (potential for action)
-
 5. Daily Revenue and Transaction Trends
-Clustered column chart for daily tracking of:
-
-Revenue (in millions VND)
-
-Number of transactions
-
-Helps identify peak days and low-performing days.
+Clustered column chart for daily tracking of revenue and number of transactions
 
 6. Top 5 Food & Beverage Items by Revenue (Last Day)
-Lists top-performing products such as:
-
-MINI BAR SET (3.5B VND)
-
-SIGNATURE HOT, 6 NAPO BOXES, etc.
+Lists top-performing products such as MINI BAR SET, SIGNATURE HOT, 6 NAPO BOXES, etc.
 
 7. Slicer Panel for Interaction
-Filters available for:
-
-Month
-
-Region
-
-Store Type
-
-Store Name
-→ Managers can view tailored insights for a specific store or area.
+Filters for Month, Region, Store Type, Store Name
 
 🔍 Advanced Logic Used:
-Pro-Rated Monthly Target Calculation: Based on number of days in month
+Pro-Rated Monthly Target Calculation: Based on the number of days in the month
 
 Dynamic % Achievement Calculation: Using DAX for Actual/Target comparisons
 
@@ -118,3 +89,4 @@ How to structure a multi-layered retail dashboard using performance KPIs, visual
 How to implement color-coded alerts and quadrant segmentation for decision-making
 
 Importance of user-friendly navigation (filters + layout) for non-technical users
+
