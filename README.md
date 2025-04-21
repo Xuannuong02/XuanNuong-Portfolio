@@ -1,69 +1,120 @@
-# 🎯 Seasonal Products Forecast Portfolio  
-> A Power BI dashboard to track and analyze sales vs forecast across multiple seasonal campaigns.
+🎯 Project Title: MM Store Performance Dashboard – Retail Sales Monitoring
+📝 General Info:
+Domain: Retail & Food & Beverage
 
----
+Company: Marou
 
-## 📌 Project Overview  
-This portfolio showcases my end-to-end work on forecasting and analyzing **seasonal product performance** across multiple campaigns (e.g., Easter, Tet, Halloween, Mid-Autumn). The report helps business teams evaluate forecast accuracy, optimize inventory, and make data-driven decisions during peak sales periods.
+Dashboard Designer: Nuong
 
----
+Data Owner: Du
 
-## 💻 Tools & Technologies  
+Tool Used: Power BI
 
-| Tool            | Purpose                                      |
-|------------------|----------------------------------------------|
-| **SQL**          | Extract actual sales data from databases     |
-| **Google Sheets**| Input and manage product forecast data       |
-| **Power BI**     | Visualize product-level and campaign-level performance |
+Data Source: Internal retail transaction system (daily sales, targets, store info)
 
----
+Project Date: April 2025
 
-## 📊 Dashboard Features  
+💡 Project Objective:
+To build a dashboard that provides a comprehensive overview of store performance across different locations, enabling the business team to:
 
-- 🔎 **Filter by Campaign Name and Region**
-- 🧾 **Product Table** with:
-  - Product code & name  
-  - Unit price  
-  - Forecasted quantity  
-  - Actual quantity sold  
-  - % of forecast achieved (with conditional formatting)
-- 📈 **Total sold vs forecast** at campaign level
-- ✅ **Green progress bars** indicate how close each product is to the forecast
-- 📉 Easily spot underperforming or overperforming SKUs
+Track sales and transaction metrics by day, store, and region
 
----
+Compare performance against monthly targets
 
-## 📦 Example Campaigns  
+Identify best and worst-performing stores
 
-- **🎉 Tet (Lunar New Year)**  
-- **🐰 Easter**  
-- **🎃 Halloween**  
-- **🌕 Mid-Autumn (Mooncake Festival)**  
-- **💐 International Women's Day**
+Take timely actions to improve sales where necessary
 
----
+📌 Key Features of the Dashboard:
+1. Top-Level KPIs (Header)
+YTD Revenue: Total revenue from January to current month
 
-## 🚀 Impact  
+% YTD Achievement: How YTD actual revenue compares with YTD target
 
-- Increased visibility into seasonal campaign performance  
-- Supported demand planning and forecast adjustments  
-- Helped teams optimize inventory and reduce waste  
-- Promoted data-driven decision-making for future campaigns
+MTD Revenue: Revenue in the current month (up to today)
 
----
+% MTD Achievement: MTD revenue performance vs. target (target is pro-rated by number of days)
 
-## 📸 Sample Dashboard Screenshot  
+MTD Transaction Count: Total number of transactions in the month
 
-![Seasonal Forecast Dashboard](path/to/your-image.png)  
-_Replace with the correct image path in your GitHub repo._
+2. Store-Level Breakdown
+Revenue by Store: Ranked list of all stores with revenue and %TGT
 
----
+Color-Coded Performance Legend:
 
-## 📂 Folder Structure  
+🟩 >100% (Target Achieved)
 
----
+🟨 80–100% (On Watch)
 
-## 👩‍💻 About Me  
+🟥 <80% (Underperforming)
 
-Hi, I'm **Xuan Nuong** – a Data Analyst passionate about turning business data into useful insights. This portfolio is part of my journey to master BI tools and help organizations make smarter decisions.
+This enables quick identification of underperforming stores such as “Ben Nghe - HUE” (68% TGT).
 
+3. Regional Revenue Contribution
+Stacked bar chart showing revenue by region and by store type (e.g., Flagship, Café, Station).
+
+South region is leading with highest revenue contribution.
+
+4. Store Quadrant Map (Positioning Matrix)
+X-Axis: Average Transaction Value
+
+Y-Axis: Total Transactions (MTD)
+
+Stores plotted to identify:
+
+High value, high transaction stores (e.g., The Nhon – HN, Calmette – HCM)
+
+Low value, low transaction stores (potential for action)
+
+5. Daily Revenue and Transaction Trends
+Clustered column chart for daily tracking of:
+
+Revenue (in millions VND)
+
+Number of transactions
+
+Helps identify peak days and low-performing days.
+
+6. Top 5 Food & Beverage Items by Revenue (Last Day)
+Lists top-performing products such as:
+
+MINI BAR SET (3.5B VND)
+
+SIGNATURE HOT, 6 NAPO BOXES, etc.
+
+7. Slicer Panel for Interaction
+Filters available for:
+
+Month
+
+Region
+
+Store Type
+
+Store Name
+→ Managers can view tailored insights for a specific store or area.
+
+🔍 Advanced Logic Used:
+Pro-Rated Monthly Target Calculation: Based on number of days in month
+
+Dynamic % Achievement Calculation: Using DAX for Actual/Target comparisons
+
+Store Segmentation via Quadrant Logic: Transaction vs. Value
+
+Conditional Formatting: Automatic color change based on % Target
+
+✅ Business Impact:
+Operations Team: Easily identified stores needing support or intervention
+
+Sales Team: Focused efforts on high-potential stores during the month
+
+Leadership: Real-time view of revenue progress towards monthly and yearly targets
+
+Marketing: Understood product trends to guide promotions
+
+✨ What I Learned:
+How to structure a multi-layered retail dashboard using performance KPIs, visuals, and interactivity
+
+How to implement color-coded alerts and quadrant segmentation for decision-making
+
+Importance of user-friendly navigation (filters + layout) for non-technical users
