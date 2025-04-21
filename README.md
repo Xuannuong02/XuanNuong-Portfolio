@@ -1,43 +1,69 @@
-# XuanNuong Data Analyst Portfolio
+🎯 Seasonal Products Forecast Portfolio
+A Power BI dashboard to track and analyze sales vs forecast across multiple seasonal campaigns.
 
-Welcome to my portfolio! I am a data analyst passionate about turning data into actionable insights. This portfolio showcases projects that focus on sales data analysis, data visualization, and forecasting using real business data.
+📌 Project Overview
+This portfolio showcases my end-to-end work on forecasting and analyzing seasonal product performance across multiple campaigns (e.g., Easter, Tet, Halloween, Mid-Autumn). The report helps business teams evaluate forecast accuracy, optimize inventory, and make data-driven decisions during peak sales periods.
 
-## 🔍 Project Overview
+💻 Tools & Technologies
 
-**Project Title**: Sales Data Analysis & Forecasting  
-**Goal**: Analyze and visualize sales trends (daily, weekly, monthly), and build forecasts to support business decisions.  
-**Tools Used**: Power BI, Excel, SQL, Python (Pandas, Matplotlib)
+Tool	Purpose
+SQL	Extract actual sales data from databases
+Google Sheets	Input and manage product forecast data
+Power BI	Visualize product-level and campaign-level performance
+📊 Dashboard Features
+🔎 Filter by Campaign Name and Region
 
----
+🧾 Product Table with:
 
-## 📊 Project Details
+Product code & name
 
-### 1. Data Cleaning & Preparation
-- Cleaned sales transaction data from the company.
-- Removed duplicates, handled missing values, standardized date formats.
-- Tools: Excel, Python (Pandas)
+Unit price
 
-### 2. Sales Trend Analysis
-- Analyzed sales patterns by day, week, and month.
-- Identified high-performing periods and seasonal effects.
-- SQL was used for grouping and aggregating metrics.
+Forecasted quantity
 
-### 3. Data Visualization
-- Created interactive dashboards in Power BI.
-- Key visuals: Line charts (monthly sales), Bar charts (weekly comparison), Heatmaps (daily performance).
-- Enabled management to track performance by region and product category.
+Actual quantity sold
 
-### 4. Forecasting
-- Built a simple linear regression model to forecast next month’s sales.
-- Used historical trends to predict short-term sales performance.
+% of forecast achieved (with conditional formatting)
 
----
+📈 Total sold vs forecast at campaign level
 
-## 📌 Key Insights
-- Sales peaked in the last week of each month.
-- Weekends contributed to 30% of weekly revenue.
-- Forecast model showed a 10% expected increase next month.
+✅ Green progress bars indicate how close each product is to the forecast
 
----
+📉 Easily spot underperforming or overperforming SKUs
 
-## 📂 Folder Structure
+📦 Example Campaigns
+🎉 Tet (Lunar New Year)
+
+🐰 Easter
+
+🎃 Halloween
+
+🌕 Mid-Autumn (Mooncake Festival)
+
+💐 International Women's Day
+
+🚀 Impact
+Increased visibility into seasonal campaign performance
+
+Supported demand planning and forecast adjustments
+
+Helped teams optimize inventory and reduce waste
+
+Promoted data-driven decision-making for future campaigns
+📸 Sample Dashboard Screenshot
+
+Replace with the correct image path in your GitHub repo.
+
+📂 Folder Structure
+bash
+Copy
+Edit
+XuanNuong-Portfolio/
+│
+├── data/               # Sample data for forecast & sales
+├── SQL/                # SQL queries used for extraction
+├── PowerBI/            # .pbix report file
+├── screenshots/        # Dashboard images
+└── README.md           # Project summary
+👩‍💻 About Me
+Hi, I'm Xuan Nuong – a Data Analyst passionate about turning business data into useful insights. This portfolio is part of my journey to master BI tools and help organizations make smarter decisions.
