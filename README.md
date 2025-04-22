@@ -1,92 +1,77 @@
-🎯 Project Title: MM Store Performance Dashboard – Retail Sales Monitoring
-📝 General Info:
-Domain: Retail & Food & Beverage
+#📦 Project Title: Ecommerce Performance Dashboard – EUR Market
+🌐 Domain: Retail & E-commerce
+🏢 Company: 
+🧑‍💻 Role: Power BI Developer
+📅 Year: 2024
+📊 Tools: Power BI, Google Sheets
+📂 Data Sources: Sales data from ecommerce platforms (Marou France, Marou Singapore), manually updated targets, channel classifications
 
-Company: Marou
+🎯 Project Objective
+Build an intuitive dashboard to monitor ecommerce sales performance in EUR currency, helping business stakeholders track revenue, order volume, and channel contributions across the year. The dashboard focuses on providing both monthly and YTD performance insights at a glance.
 
-Dashboard Designer: Nuong
+🔑 Key Features
+✅ KPI Header Section
+No. Orders (MTD): 171 – up 35.71% vs. last month
 
-Data Owner: Du
+No. Orders (YTD): 879 – 5393.75% YoY growth
 
-Tool Used: Power BI
+Revenue (EUR MTD): €16.73K – down 26.9% vs. previous month
 
-Data Source: Internal retail transaction system (daily sales, targets, store info)
+Revenue (EUR YTD): €168.38K – massive YoY growth of +3043.55%
 
-Project Date: April 2025
+📊 Visual Components
+Sales by Channel (Monthly) – Pie chart breakdown across B2B, B2C, KOL, Pop-up Retail, and Redmart
 
-💡 Project Objective:
-To build a dashboard that provides a comprehensive overview of store performance across different locations, enabling the business team to:
+Revenue by Channel (Monthly) – Horizontal stacked bar chart showing proportional contribution
 
-Track sales and transaction metrics by day, store, and region
+Total Revenue (YTD) – Monthly trend chart with comparison between Marou France and Marou Singapore
 
-Compare performance against monthly targets
+Total Orders (YTD) – Order count by month per region
 
-Identify best and worst-performing stores
+🧭 Navigation & Filters
+Custom left navigation panel with multi-page layout:
 
-Take timely actions to improve sales where necessary
+Overview
 
-📌 Key Features of the Dashboard:
-1. Top-Level KPIs (Header)
-YTD Revenue: Total revenue from January to current month
+Top Product Ranking
 
-% YTD Achievement: How YTD actual revenue compares with YTD target
+Regions & Customers
 
-MTD Revenue: Revenue in the current month (up to today)
+Ecommerce (current view)
 
-% MTD Achievement: MTD revenue performance vs. target (target is pro-rated by number of days)
+Country-specific views (Marou France, Marou Singapore)
 
-MTD Transaction Count: Total number of transactions in the month
+Product Category analysis
 
-2. Store-Level Breakdown
-Revenue by Store: Ranked list of all stores with revenue and %TGT
+Detailed Channel & Subchannel breakdown
 
-Color-Coded Performance Legend:
+Dropdown filters: By year and month to dynamically adjust visuals
 
-🟩 >100% (Target Achieved)
+🔍 Advanced Features & Techniques Used
+YoY and MoM Growth Calculations using DAX
 
-🟨 80–100% (On Watch)
+Dynamic KPI Cards that change color and display trend indicators (↑↓)
 
-🟥 <80% (Underperforming)
+Channel-Level Revenue Breakdown with automatic % contribution calculations
 
-3. Regional Revenue Contribution
-Stacked bar chart showing revenue by region and by store type (e.g., Flagship, Café, Station)
+Region-wise Comparison to highlight differences in market performance
 
-4. Store Quadrant Map (Positioning Matrix)
-X-Axis: Average Transaction Value
+User-Centric UI Design for ease of navigation and fast insights
 
-Y-Axis: Total Transactions (MTD)
+💼 Business Impact
+Helped ecommerce team spot declining revenue trends early (e.g., MTD dip in December)
 
-5. Daily Revenue and Transaction Trends
-Clustered column chart for daily tracking of revenue and number of transactions
+Provided clear visibility into most effective sales channels (B2B = 66.44%)
 
-6. Top 5 Food & Beverage Items by Revenue (Last Day)
-Lists top-performing products such as MINI BAR SET, SIGNATURE HOT, 6 NAPO BOXES, etc.
+Enabled cross-region comparisons (France vs. Singapore) to adjust marketing efforts
 
-7. Slicer Panel for Interaction
-Filters for Month, Region, Store Type, Store Name
+Supported leadership decisions on resource allocation and product push strategies
 
-🔍 Advanced Logic Used:
-Pro-Rated Monthly Target Calculation: Based on the number of days in the month
+💡 What I Learned
+Building multi-layered dashboards that balance summary + detailed views
 
-Dynamic % Achievement Calculation: Using DAX for Actual/Target comparisons
+Using color indicators and KPIs to communicate trends instantly
 
-Store Segmentation via Quadrant Logic: Transaction vs. Value
+How to optimize visual design for ecommerce-specific reporting
 
-Conditional Formatting: Automatic color change based on % Target
-
-✅ Business Impact:
-Operations Team: Easily identified stores needing support or intervention
-
-Sales Team: Focused efforts on high-potential stores during the month
-
-Leadership: Real-time view of revenue progress towards monthly and yearly targets
-
-Marketing: Understood product trends to guide promotions
-
-✨ What I Learned:
-How to structure a multi-layered retail dashboard using performance KPIs, visuals, and interactivity
-
-How to implement color-coded alerts and quadrant segmentation for decision-making
-
-Importance of user-friendly navigation (filters + layout) for non-technical users
-
+Collaboration between data and business teams for effective metric definitions
